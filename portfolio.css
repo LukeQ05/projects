@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* White background */
+  color: #000000; /* Black text */
+  font-weight: bold; /* Bold font */
+}
+
+header {
+  background-color: #000000; /* Black header */
+  color: #ffffff; /* White text */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 5px 0 0;
+  font-size: 1.2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #ffffff; /* White links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  border-bottom: 2px solid #000000; /* Black border */
+  padding-bottom: 5px;
+  font-size: 2rem;
+}
+
+/* Projects Section Styles */
+#projects {
+  padding: 20px;
+}
+
+.update-note {
+  font-style: italic;
+  color: #555; /* Gray text */
+  margin-bottom: 30px;
+}
+
+.project-box {
+  background-color: #ffffff; /* White background */
+  border: 2px solid #000000; /* Black border */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-box:hover {
+  transform: translateY(-5px); /* Lift the box on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.project-box h3 {
+  margin-top: 0;
+  color: #000000; /* Black text */
+  font-size: 1.8rem;
+  border-bottom: 2px solid #000000; /* Black underline */
+  padding-bottom: 10px;
+}
+
+.project-box p {
+  margin: 10px 0;
+  color: #000000; /* Black text */
+  line-height: 1.6;
+}
+
+.project-box a {
+  display: inline-block;
+  background-color: #000000; /* Black button */
+  color: #ffffff; /* White text */
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.project-box a:hover {
+  background-color: #333333; /* Dark gray on hover */
+}
+
+footer {
+  background-color: #000000; /* Black footer */
+  color: #ffffff; /* White text */
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
